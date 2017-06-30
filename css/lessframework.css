@@ -220,19 +220,7 @@ px      68    160    252    344    436    528    620    712    */
   height: 88%;
   margin-left: -80px;
 	}
-  /*.sliders-wrap-inner li img{width:30%; height: 100%;}*/
-  /*.m1{ overflow: hidden;
-    float: left;
-    max-width: 521px;
-    max-height: 534px;
-    margin-left: -117px !important;}
-  .m2{
-    overflow: hidden;
-    float: left;
-    max-width: 521px;
-    max-height: 534px;
-    margin-left: -116px !important;
-  }*/
+
   .lof-slidecontent .navigator-content .button-next,
   .main-slider-content .navigator-content .button-next,
   .lof-slidecontent .navigator-content .button-previous,
