@@ -1,23 +1,37 @@
 {
-  "name": "project",
+  "name": "yes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "dependencies": {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehyeon/portfolio.git"
+  },
+  "author": "최예현",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yehyeon/portfolio/issues"
+  },
+  "homepage": "https://github.com/yehyeon/portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-less": "^1.4.1",
-    "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-include": "^0.1.2",
     "grunt-includes": "^1.0.0",
     "grunt-serve": "^0.1.6"
   },
-  "devDependencies": {
-    "grunt-cli": "^1.2.0"
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-include": "^0.1.2",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-includes": "^1.0.0",
+    "grunt-serve": "^0.1.6"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "description": "me"
 }
