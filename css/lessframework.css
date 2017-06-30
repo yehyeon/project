@@ -1,0 +1,300 @@
+/*큰화면--11번째줄
+두번째로 큰 화면-- 16번째 줄
+@media screen and (min-width: 768px) and (max-width: 991px)
+세번째로 큰화면--76번째줄
+@media  screen and (min-width: 480px) and (max-width: 767px)
+모바일 사이즈 --164번째 줄
+@media  screen and (max-width: 767px)*/
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!제일 네번째로 작은 화면(큰화면)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.wrapper {
+ width: 940px;
+}
+/* CAROUSEL Default ----------------------------------------------------*/
+/*		Tablet Layout: 768px.
+	 Gutters: 24px.
+	 Outer margins: 28px.
+	 Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!제일 세번째로 작은 화면(두번째로 큰 화면)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+ @media screen and (min-width: 768px) and (max-width: 991px) {
+	 /* GENERAL TABLET ----------------------------------------------------*/.wrapper {
+		 width: 712px;
+	 }
+	 /* NAV TABLET ----------------------------------------------------*/#nav {
+		 display: block;
+	 }
+	 /* SLIDER TABLET ----------------------------------------------------*/.lof-slidecontent,
+	 .main-slider-content {
+		 width: 712px;
+		 height: 367px;
+		 margin-top: -16px;
+	 }
+	 .lof-slidecontent .sliders-wrapper,
+	 .main-slider-content .sliders-wrapper {
+		 width: 712px;
+	 }
+
+	 .lof-slidecontent .navigator-content .button-next,
+	 .main-slider-content .navigator-content .button-next,
+	 .lof-slidecontent .navigator-content .button-previous,
+	 .main-slider-content .navigator-content .button-previous,
+	 .lof-slidecontent .navigator-content .button-control,
+	 .main-slider-content .navigator-content .button-control {
+		 opacity: 1;
+		 bottom: 0px;
+		 left: 0px;
+		 z-index: 199;
+	 }
+	 .lof-slidecontent .navigator-content .button-next,
+	 .main-slider-content .navigator-content .button-next {
+		 left: 682px;
+	 }
+	 .lof-slidecontent .navigator-wrap-inner,
+	 .main-slider-content .navigator-wrap-inner {
+		 display: none;
+	 }
+	 .lof-slidecontent .navigator-wrapper,
+	 .main-slider-content .navigator-wrapper {
+		 width: 712px;
+	 }
+	 /* FILTERED ITEMS TABLET ----------------------------------------------------*/
+	 #filter-container {
+		 width: 732px;
+		 /* 712 + 20 gap */
+
+	 }
+	 #filter-container figure {
+		 width: 223px;
+		 margin-right: 20px;
+	 }
+}
+ /*		Mobile Layout: 320px.
+		 Gutters: 24px.
+		 Outer margins: 34px.
+		 Inherits styles from: Default Layout.
+ ---------------------------------------------
+ cols    1     2      3
+ px      68    160    252    */
+ /*!!!!!!!!!!!!!!!!!!!!!!!!!!제일 두번째로 작은 화면(세번째로 큰화면)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+@media  screen and (min-width: 480px) and (max-width: 767px) {
+  .wrapper {
+    width: 436px;     height: 534px;
+  }
+  /* LOGO WIDE MOBILE ----------------------------------------------------*/
+  #logo a{
+    display: block ;
+    width: 436px;
+  }
+	#logo a img{display: block;
+    margin: 0 auto;}
+
+  /* NAV WIDE MOBILE ----------------------------------------------------*/
+  #nav {
+    display: none;
+  }
+  #comboNav {
+    display: block;
+  }
+
+	.lof-slidecontent, .main-slider-content {
+	     width: 436px;
+	     height: 371px;}
+
+	.lof-slidecontent .navigator-wrapper,
+	.main-slider-content .navigator-wrapper {
+	 display: none;
+	}
+	.lof-slidecontent .slider-description,
+  .main-slider-content .slider-description {
+    top: 0px;
+    left: 0px;
+    width: 232px;
+    height: 100%;
+  }
+
+  .lof-slidecontent .navigator-content .button-next,
+  .main-slider-content .navigator-content .button-next,
+  .lof-slidecontent .navigator-content .button-previous,
+  .main-slider-content .navigator-content .button-previous,
+  .lof-slidecontent .navigator-content .button-control,
+  .main-slider-content .navigator-content .button-control {
+    opacity: 1;
+    bottom: 12px;
+    left: 0px;
+    z-index: 199;
+  }
+  .lof-slidecontent .navigator-content .button-next,
+  .main-slider-content .navigator-content .button-next {
+    left: 406px;
+  }
+  .lof-slidecontent .navigator-wrap-inner,
+  .main-slider-content .navigator-wrap-inner {
+    display: none;
+  }
+
+  .sliders-wrap-inner li img
+	{top: 0px;
+	left: 0px;
+	width: 450px;
+  height: 88%;
+	}
+
+
+  #filter-container {
+    width: 460px;
+    overflow: hidden;
+    position: relative;
+    height: 2003px;
+  }
+  #filter-container figure {
+    width: 206px;
+    margin-right: 24px;
+    float: left;
+  }
+  footer{height: 250%;}
+  .widget-cols > li {
+      width: 436px;
+      margin-right: 0px;
+      margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+  }
+
+
+
+ /*!!!!!!!!!!!!!!!!!!!!!!!!!!!모바일 사이즈!!!!!!!!!!!!!!!!!!!*/
+@media  screen and (max-width: 767px) {
+  .wrapper {
+    width: 252px;
+  }
+  #logo {
+    margin-left: 0px;
+  }
+  #logo a {
+    display: block ;
+    width: 252px;
+  }
+  #logo img {
+    display: block;
+    margin: 0 auto;
+  }
+  /* NAV MOBILE ----------------------------------------------------*/#nav {
+    display: none;
+  }
+  #comboNav {
+    display: block;
+  }
+  /* HEADLINE MOBILE ----------------------------------------------------*/#headline {
+    font-size: 36px;
+  }
+  /* CAROUSEL MOBILE ----------------------------------------------------*/#ch-holder {
+    display: none;
+  }
+  #cv-holder {
+    display: block;
+  }
+  .carousel-holder .carousel-heading span {
+    margin: 0px 0px 22px 0px;
+  }
+  /* SLIDER MOBILE ----------------------------------------------------*/.lof-slidecontent,
+  .main-slider-content {
+    width: 252px;
+    height: 367px;
+  }
+  .lof-slidecontent .sliders-wrapper,
+  .main-slider-content .sliders-wrapper {
+    width: 252px;
+  }
+  /*.sliders-wrap-inner li img{width:30%; height: 100%;}*/
+  .m1{overflow: hidden;
+    float: left;
+    max-width: 521px;
+    max-height: 534px;
+    margin-left: -117px !important;}
+  .m2{list-style: none;
+    overflow: hidden;
+    float: left;
+    max-width: 326px;
+    max-height: 534px;
+    margin-left: -116px !important;}
+  .lof-slidecontent .navigator-content .button-next,
+  .main-slider-content .navigator-content .button-next,
+  .lof-slidecontent .navigator-content .button-previous,
+  .main-slider-content .navigator-content .button-previous,
+  .lof-slidecontent .navigator-content .button-control,
+  .main-slider-content .navigator-content .button-control {
+    opacity: 1;
+    bottom: 0px;
+    left: 0px;
+    z-index: 199;
+  }
+  .lof-slidecontent .navigator-content .button-next,
+  .main-slider-content .navigator-content .button-next {
+    left: 222px;
+  }
+  .lof-slidecontent .navigator-wrap-inner,
+  .main-slider-content .navigator-wrap-inner {
+    display: none;
+  }
+  .lof-slidecontent .navigator-wrapper,
+  .main-slider-content .navigator-wrapper {
+    width: 252px;
+  }
+  .lof-slidecontent .slider-description,
+  .main-slider-content .slider-description {
+    display: none;
+  }
+  /* Description MOBILE ----------------------------------------------------*/.main-slider-content:hover .slider-description {
+    opacity: 1;
+  }
+  /* FILTERED ITEMS MOBILE ----------------------------------------------------*/#filter-container {
+    width: 252px;
+    /* 712 + 20 gap */
+
+  }
+  #filter-container figure {
+    width: 252px;
+    margin-right: 0px;
+  }
+  #filter-container figure figcaption .heading {
+    font-size: 28px;
+  }
+  .second-col {
+    margin-left: 0px;
+}
+.tweet{margin-left: -5px;}
+.widget-block{margin-left: -10px;}
+.widget-cols > li.fourth-col {
+    margin-left: -1px;}
+.hh{margin-left: 8px;}
+/*.hhh{margin-left: 8px;}*/
+  .widget-cols > li {
+    width: 252px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    display: inline-block;
+    vertical-align: center;
+  }
+  .widget-block h4{text-align: center;}
+  .widget-cols > li:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+  }
+  footer{margin-top: 1700px;}
+  }
+  #social-bar{margin-top: 50px;}
+
+
+
+
+}

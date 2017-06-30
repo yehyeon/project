@@ -1,0 +1,46 @@
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu ul {
+	background: #f8f5f2; margin-top: 20;
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+	height: 35px;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu ul li a {
+  color: #444444;
+}
+.sf-menu ul:hover li{display: block;}
+
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+
+.sf-menu li:hover
+/*ul,.sf-menu li.sfHover */
+ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+
+.sf-menu ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+	height:35px;
+	font-size: 20px;
+  color: #cb5432;
+}
