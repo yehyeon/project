@@ -1,12 +1,14 @@
 @import url('reset.css');
 
-@import url('widgets.css');
+@import url('lessframwork.css');
 
-@import url('social.css');
+@import url('style.css');
 
-@import url('elements.css');
+@import url('superfish.css');
 
-@import url('comments.css');
+@import url('skin.css');
+
+@import url('lof-slider.css');
 /*
 * Folder v1.0
 *
@@ -81,18 +83,7 @@ h5 {
 h6 {
   font-size: 14px;
 }
-.alignleft {
-  float: left;
-  margin: 5px 10px 5px 0;
-}
-.alignright {
-  float: right;
-  margin: 5px 0px 5px 10px;
-}
-.section-div {
-  height: 54px;
-  border-top: 1px solid #ccc;
-}
+
 #logo {
   margin-top: 10px;
   margin-bottom: 20px;

@@ -1,9 +1,9 @@
 /*큰화면--11번째줄
-두번째로 큰 화면-- 16번째 줄
+두번째로 큰 화면-- 25번째 줄
 @media screen and (min-width: 768px) and (max-width: 991px)
-세번째로 큰화면--76번째줄
+세번째로 큰화면--85번째줄
 @media  screen and (min-width: 480px) and (max-width: 767px)
-모바일 사이즈 --164번째 줄
+모바일 사이즈 --174번째 줄
 @media  screen and (max-width: 767px)*/
 
 
@@ -23,13 +23,16 @@ px      68    160    252    344    436    528    620    712    */
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!제일 세번째로 작은 화면(두번째로 큰 화면)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
  @media screen and (min-width: 768px) and (max-width: 991px) {
-	 /* GENERAL TABLET ----------------------------------------------------*/.wrapper {
+	 /* GENERAL TABLET ----------------------------------------------------*/
+   .wrapper {
 		 width: 712px;
 	 }
-	 /* NAV TABLET ----------------------------------------------------*/#nav {
+	 /* NAV TABLET ----------------------------------------------------*/
+   #nav {
 		 display: block;
 	 }
-	 /* SLIDER TABLET ----------------------------------------------------*/.lof-slidecontent,
+	 /* SLIDER TABLET ----------------------------------------------------*/
+   .lof-slidecontent,
 	 .main-slider-content {
 		 width: 712px;
 		 height: 367px;
